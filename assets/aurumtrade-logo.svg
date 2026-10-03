@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="80" viewBox="0 0 320 80" role="img" aria-labelledby="logo-title logo-desc">
+  <title id="logo-title">AurumtradE</title>
+  <desc id="logo-desc">AurumtradE. Geometryczny znak A inspirowany zbiegającymi się pasami drogi, ciemny napis i złota końcowa litera E.</desc>
+  <g transform="translate(5 8)">
+    <path fill="#172322" d="M27 8h10L17 56H3L27 8Z"/>
+    <path fill="#172322" d="m37 8 24 48H47L27 8h10Z"/>
+    <path fill="#ad813d" d="M23 36h18l5 10H18l5-10Z"/>
+  </g>
+  <text x="80" y="51" fill="#172322" font-family="Manrope, Arial, sans-serif" font-size="37" font-weight="700" letter-spacing="-1.5">Aurumtrad<tspan fill="#ad813d">E</tspan></text>
+</svg>

@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#0b1c2d">
+  <meta name="description" content="AurumtradE — starannie wybrane samochody z Niemiec. Sprawdź auta osobowe i dostawcze, zdjęcia oraz ceny. Umów oględziny we Wrocławiu: 501 781 328.">
+  <meta name="robots" content="noindex,nofollow">
+  <title>AurumtradE — starannie wybrane samochody z Niemiec</title>
+  <link rel="icon" href="assets/brand-avatar.jpg">
+  <link rel="stylesheet" href="styles.css">
+  <script src="stock.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+<a class="skip-link" href="#showroom">Przejdź do samochodów</a>
+<header class="header">
+  <div class="wrap nav">
+    <a class="brand" href="#top" aria-label="AurumtradE — strona główna">
+      <img src="assets/brand-avatar.jpg" alt="" width="52" height="52">
+      <span><strong>Aurumtrad<span>E</span></strong><small>AUTA UŻYWANE</small></span>
+    </a>
+    <nav class="desktop-nav" aria-label="Menu główne">
+      <a href="#showroom">Samochody <span class="nav-count">7</span></a><a href="#story">Poznaj AurumtradE</a><a href="#contact">Kontakt</a>
+    </nav>
+    <a class="nav-phone" href="tel:+48501781328"><span aria-hidden="true">↗</span> 501 781 328</a>
+    <button class="menu-toggle" aria-expanded="false" aria-controls="mobile-menu" aria-label="Otwórz menu"><span></span><span></span></button>
+  </div>
+  <nav id="mobile-menu" class="mobile-menu" aria-label="Menu mobilne" hidden><a href="#showroom">Samochody</a><a href="#story">Poznaj AurumtradE</a><a href="#people">Znajdź auto dla siebie</a><a href="#contact">Kontakt</a></nav>
+</header>
+<main id="top">
+  <section class="hero" aria-labelledby="hero-title">
+    <div class="hero-photo"><img src="assets/mazda-hero.webp" alt="Granatowa Mazda CX-3 z aktualnej oferty AurumtradE" fetchpriority="high"><div class="photo-shade"></div></div>
+    <div class="wrap hero-content">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="gold-line"></span> AURUMTRADE · WROCŁAW</p>
+        <h1 id="hero-title">Dobre sztuki.<br><span>Wybrane<br> osobiście.</span></h1>
+        <p class="hero-tagline">Starannie wybrane samochody z Niemiec.</p>
+        <p class="hero-intro">Za każdym autem stoi konkretny wybór. Poznaj samochód, jego historię i człowieka, który go sprowadził.</p>
+        <div class="actions"><a class="button gold" href="#showroom">Zobacz samochody <span aria-hidden="true">↗</span></a><a class="text-link" href="#story">Poznaj moje podejście <span aria-hidden="true">→</span></a></div>
+        <div class="hero-proof"><span>Osobisty wybór</span><i></i><span>Otwarta rozmowa</span><i></i><span>Oględziny we Wrocławiu</span></div>
+      </div>
+      <a class="hero-car" href="#auto=mazda"><span class="car-label">POZNAJ TEN EGZEMPLARZ <span aria-hidden="true">↗</span></span><strong>Mazda CX-3 <small>2.0 Skyenergy</small></strong><span class="hero-car-bottom"><span>2018 · benzyna · manual</span><b id="hero-price">55 600 zł</b></span></a>
+    </div>
+    <span class="hero-side-note" aria-hidden="true">AURUMTRADE / WYBRANE Z POWODU</span>
+  </section>
+
+  <div class="trust-strip"><div class="wrap"><p><span class="gold-dot"></span> Samochody osobowe i dostawcze</p><p>Historia konkretnego egzemplarza</p><p>Bezpośredni kontakt z Romkiem <span aria-hidden="true">↗</span></p></div></div>
+
+  <section class="showroom section" id="showroom" aria-labelledby="stock-title">
+    <div class="wrap">
+      <div class="section-head"><div><p class="eyebrow">01 / AKTUALNA OFERTA</p><h2 id="stock-title">Każde auto ma<br>swój <em>dobry powód.</em></h2></div><div class="section-aside"><p>Osobowe i dostawcze, do codziennej jazdy i do pracy. Poznaj ich historię, obejrzyj zdjęcia i wybierz auto dla siebie.</p><a class="small-link" href="https://aurumtrade.otomoto.pl/inventory" target="_blank" rel="noopener noreferrer">Nasza oferta na OTOMOTO <span aria-hidden="true">↗</span></a></div></div>
+      <div class="filters" aria-label="Filtrowanie samochodów">
+        <div class="filter-tabs" role="group" aria-label="Rodzaj samochodu"><button class="filter active" data-filter="all" aria-pressed="true">Wszystkie <span>7</span></button><button class="filter" data-filter="hybrid" aria-pressed="false">Hybrydy</button><button class="filter" data-filter="suv" aria-pressed="false">SUV / crossover</button><button class="filter" data-filter="estate" aria-pressed="false">Kombi</button><button class="filter" data-filter="van" aria-pressed="false">Dostawcze</button></div>
+        <div class="filter-fields"><label class="search-label"><span>Szukaj samochodu</span><input id="search" type="search" placeholder="Marka lub model…" autocomplete="off"></label><label><span>Budżet</span><select id="budget"><option value="">Dowolna cena</option><option value="50000">Do 50 000 zł</option><option value="60000">Do 60 000 zł</option><option value="70000">Do 70 000 zł</option></select></label><label><span>Sortuj</span><select id="sort"><option value="selected">Wybrane dla Ciebie</option><option value="price-up">Cena rosnąco</option><option value="price-down">Cena malejąco</option><option value="year">Najmłodsze</option><option value="mileage">Najniższy przebieg</option></select></label></div>
+      </div>
+      <div class="results-line"><p id="result-count" role="status" aria-live="polite">7 samochodów w ofercie</p><button class="reset-link" id="reset-filters" hidden>Wyczyść filtry ×</button><span>Stan oferty: <time datetime="2026-10-03">03.10.2026</time></span></div>
+      <div class="cars-grid" id="cars-grid"></div>
+      <div class="empty-state" id="empty-state" hidden><h3>Poszukajmy trochę szerzej.</h3><p>Żaden samochód nie pasuje do tych filtrów. Zmień kryteria lub zadzwoń — porozmawiamy o tym, czego szukasz.</p><button class="button navy" id="reset-empty">Pokaż wszystkie auta</button></div>
+      <noscript><p>Włącz JavaScript, aby korzystać z katalogu, lub <a href="https://aurumtrade.otomoto.pl/inventory">zobacz wszystkie samochody na OTOMOTO</a>. Kontakt: <a href="tel:+48501781328">501 781 328</a>.</p></noscript>
+      <p class="stock-note">Przed przyjazdem potwierdź dostępność i cenę. Część samochodów jest użytkowana, dlatego przebieg może się zmienić.</p>
+    </div>
+  </section>
+
+  <section class="story section" id="story" aria-labelledby="story-title">
+    <div class="wrap story-grid"><div><p class="eyebrow">02 / ZA MARKĄ STOI CZŁOWIEK</p><h2 id="story-title">AurumtradE.<br>Moje podejście<br> do <em>dobrych aut.</em></h2><div class="signature"><span class="signature-line"></span><strong>Romek</strong><span>osobisty wybór, bezpośredni kontakt</span></div></div><div class="story-copy"><p class="lead">Sam wybieram auta, po które warto pojechać.</p><p>Interesuje mnie konkretny egzemplarz: jego historia, dokumentacja i to, jak był użytkowany. Chcę wiedzieć, co przywożę — i móc o tym normalnie porozmawiać z kolejnym właścicielem.</p><p>AurumtradE to firma, którą możesz już znać z Facebooka. Tutaj znajdziesz jej aktualne samochody, uporządkowane informacje i zdjęcia. A za telefonem nadal jest człowiek, który zna te auta.</p><p class="story-statement">Mocne strony, ślady użytkowania, wykonane naprawy.<br><strong>Jasny obraz auta przed spotkaniem.</strong></p><a class="text-link" href="https://www.facebook.com/people/AurumtradE/61595070023337/" target="_blank" rel="noopener noreferrer">Poznaj AurumtradE na Facebooku <span aria-hidden="true">↗</span></a></div></div>
+    <div class="wrap route"><article><span class="step">01</span><h3>Porozmawiajmy</h3><p>Powiedz, które auto Cię interesuje. Omówimy jego historię i szczegóły.</p></article><article><span class="step">02</span><h3>Przyjrzyj się bliżej</h3><p>Obejrzyj zdjęcia, wyposażenie i opis stanu konkretnego egzemplarza.</p></article><article><span class="step">03</span><h3>Umów oględziny</h3><p>Ustal termin spotkania we Wrocławiu i możliwość sprawdzenia auta w serwisie.</p></article><article><span class="step">04</span><h3>Zdecyduj spokojnie</h3><p>Najpierw poznaj samochód. O cenie porozmawiamy po oględzinach.</p></article></div>
+  </section>
+
+  <section class="people section" id="people" aria-labelledby="people-title"><div class="wrap"><div class="section-head"><div><p class="eyebrow">03 / SAMOCHÓD DO TWOJEGO ŻYCIA</p><h2 id="people-title">Dokąd ma Cię<br><em>zabrać?</em></h2></div><p class="section-aside">Codzienna droga do pracy, weekend za miastem, kolejny dzień zleceń. Zacznij od tego, do czego potrzebujesz auta.</p></div><div class="use-grid"><a class="use-card large" href="#showroom" data-use-filter="hybrid"><img src="assets/corolla-1.jpg" alt="Toyota Corolla Hybrid" loading="lazy"><div><span>NA CODZIEŃ</span><h3>Do miasta.<br>I kawałek dalej.</h3><p>Poznaj hybrydowe Toyoty z oferty.</p><b>Zobacz hybrydy ↗</b></div></a><a class="use-card" href="#showroom" data-use-filter="suv"><img src="assets/mazda-1.jpg" alt="Mazda CX-3" loading="lazy"><div><span>DLA SIEBIE</span><h3>Bo po prostu<br>Ci się podoba.</h3><b>Zobacz SUV-y i crossovery ↗</b></div></a><a class="use-card" href="#showroom" data-use-filter="van"><img src="assets/vito-1.jpg" alt="Mercedes-Benz Vito z oferty" loading="lazy"><div><span>DO FIRMY</span><h3>Twój kolejny<br>dzień pracy.</h3><b>Zobacz dostawcze ↗</b></div></a></div></div></section>
+
+  <section class="contact section" id="contact" aria-labelledby="contact-title"><div class="wrap contact-grid"><div><p class="eyebrow">04 / POROZMAWIAJMY O AUCIE</p><h2 id="contact-title">Masz na oku<br><em>dobrą sztukę?</em></h2><p>Zapytaj o szczegóły, dodatkowe zdjęcia lub umów oględziny. Przed przyjazdem zadzwoń, żeby ustalić termin i dostępność samochodu.</p><a class="phone-link" href="tel:+48501781328">501 781 328 <span aria-hidden="true">↗</span></a><div class="actions"><a class="button gold" href="tel:+48501781328">Zadzwoń do Romka</a><a class="button outline" href="https://www.facebook.com/people/AurumtradE/61595070023337/" target="_blank" rel="noopener noreferrer">Napisz na Facebooku ↗</a></div></div><aside class="contact-details"><img class="brand-cover" src="assets/brand-cover.jpg" alt="Oryginalne logo AurumtradE — Auta Używane" loading="lazy"><dl><div><dt>SPOTKAJMY SIĘ WE WROCŁAWIU</dt><dd>Grottgera 20<br>51-630 Wrocław</dd><dd><a href="https://www.google.com/maps/search/?api=1&amp;query=Grottgera+20+51-630+Wroc%C5%82aw" target="_blank" rel="noopener noreferrer">Wyznacz trasę ↗</a></dd></div><div><dt>NAPISZ WIADOMOŚĆ</dt><dd><a href="mailto:aurum.trade@vp.pl">aurum.trade@vp.pl</a></dd></div></dl></aside></div></section>
+</main>
+<footer><div class="wrap footer-row"><a class="footer-brand" href="#top">Aurumtrad<span>E</span></a><p>AurumtradE Katarzyna Łuszczewska<br><span>Starannie wybrane samochody z Niemiec.</span></p><div><a href="https://www.facebook.com/people/AurumtradE/61595070023337/" target="_blank" rel="noopener noreferrer">Facebook ↗</a><a href="https://aurumtrade.otomoto.pl/inventory" target="_blank" rel="noopener noreferrer">OTOMOTO ↗</a><button id="privacy-open">Prywatność</button></div></div><div class="wrap footer-bottom">© 2026 AurumtradE <span>Wrocław · auta osobowe i dostawcze</span></div></footer>
+<div class="mobile-contact"><a href="#showroom">Zobacz auta <span aria-hidden="true">↗</span></a><a href="tel:+48501781328">Zadzwoń · 501 781 328</a></div>
+<dialog id="car-dialog" aria-labelledby="detail-title"><button class="dialog-close" id="car-close" aria-label="Zamknij szczegóły auta">×</button><div id="car-detail"></div></dialog>
+<dialog id="privacy-dialog" aria-labelledby="privacy-title"><button class="dialog-close" id="privacy-close" aria-label="Zamknij informacje o prywatności">×</button><div class="privacy-content"><p class="eyebrow">PRYWATNOŚĆ</p><h2 id="privacy-title">Kontakt na Twoich zasadach.</h2><p>Ta strona nie korzysta z analityki, reklamowych plików cookie ani formularza zbierającego dane. Zdjęcia są zapisane razem ze stroną.</p><p>Kliknięcie adresu e-mail lub numeru telefonu otworzy odpowiednią aplikację na Twoim urządzeniu. Facebook, OTOMOTO i Mapy Google otwierają się dopiero po wybraniu linku i stosują własne zasady prywatności.</p><p>Kontakt z firmą: <a href="mailto:aurum.trade@vp.pl">aurum.trade@vp.pl</a>.</p></div></dialog>
+</body></html>
+

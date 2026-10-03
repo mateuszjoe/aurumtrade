@@ -52,7 +52,7 @@
   function render(){
     const result=selectedCars();
     $('cars-grid').innerHTML=result.map(card).join('');
-    $('result-count').textContent=result.length+' '+(result.length===1?'samochód':result.length>=2&&result.length<=4?'samochody':'samochodów')+(savedOnly?' na Twojej liście':' w kolekcji');
+    $('result-count').textContent=result.length+' '+(result.length===1?'samochód':result.length>=2&&result.length<=4?'samochody':'samochodów')+(savedOnly?' na Twojej liście':' w katalogu');
     $('empty-state').hidden=result.length>0;
     $('reset-filters').hidden=filter==='all'&&!$('search').value&&!$('budget').value&&!savedOnly&&$('sort').value==='selected';
     if($('saved-count')) $('saved-count').textContent=savedCars.size;

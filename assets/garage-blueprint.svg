@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="440" viewBox="0 0 700 440" role="img" aria-labelledby="garage-title garage-desc">
+  <title id="garage-title">AurumtradE — karta samochodu</title>
+  <desc id="garage-desc">Techniczny rysunek samochodu z boku na platformie, z liniami wymiarowymi i trzema punktami do sprawdzenia: historia, dokumenty, stan auta.</desc>
+  <defs>
+    <pattern id="garage-grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0H0V24" fill="none" stroke="#e5e7df" stroke-width=".5" opacity=".055"/>
+    </pattern>
+    <pattern id="garage-hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(40)">
+      <path d="M0 0V8" stroke="#dfb354" stroke-width="2" opacity=".28"/>
+    </pattern>
+  </defs>
+  <rect width="700" height="440" fill="#171918"/>
+  <rect x="24" y="24" width="652" height="392" fill="url(#garage-grid)"/>
+  <g fill="none" stroke="#e5e7df" stroke-width="1" opacity=".34">
+    <path d="M24 42V24h18m616 0h18v18M24 398v18h18m616 0h18v-18"/>
+    <path d="M350 16v16m-8-8h16M350 408v16m-8-8h16M16 220h16m-8-8v16m644-8h16m-8-8v16"/>
+  </g>
+  <g font-family="monospace" font-size="10" letter-spacing="1.8">
+    <text x="48" y="52" fill="#e5e7df">AURUMTRADE / KARTA SAMOCHODU</text>
+    <text x="652" y="52" fill="#dfb354" text-anchor="end">AT—01</text>
+  </g>
+  <path d="M48 66h604" stroke="#e5e7df" opacity=".18"/>
+  <g fill="none" stroke="#dfb354" stroke-width="1" opacity=".65">
+    <path d="M116 204V112m460 105V112M116 121h460"/>
+    <path d="m111 126 10-10m450 10 10-10"/>
+    <path d="M617 166h25m-39 111h39M633 166v111m-5-106 10-10m-10 121 10-10"/>
+    <path d="M195 271v48m312-48v48M195 310h312m-317 5 10-10m302 10 10-10"/>
+  </g>
+  <g fill="#171918">
+    <rect x="283" y="113" width="127" height="17"/>
+    <rect x="319" y="302" width="65" height="17"/>
+  </g>
+  <g font-family="monospace" font-size="9" letter-spacing="1.6" fill="#dfb354">
+    <text x="346" y="125" text-anchor="middle">WIDOK BOCZNY</text>
+    <text x="352" y="314" text-anchor="middle">ROZSTAW</text>
+  </g>
+  <g fill="none" stroke="#e5e7df" stroke-linejoin="round" stroke-linecap="round">
+    <path d="m112 224 9-20 45-13 69-49q7-5 21-5h138q11 0 20 6l57 44 86 14 23 22-3 32h-31c-2-27-17-43-39-43s-39 16-41 43H235c-2-27-18-43-40-43s-38 16-40 43h-39l-4-31Z" stroke-width="2.2"/>
+    <path d="m193 187 50-39h38v41l-88-2Zm100-39h94q10 0 17 6l42 35H293v-41Z" stroke-width="1.3"/>
+    <path d="M284 198v44m154-44 14 42H247m-117-22 21-4m397 7 19 5M141 203l30-4m326 0 50 11M310 204h15m67 0h15" stroke-width="1.1" opacity=".75"/>
+    <path d="m438 180 18 1 5 8h-20" stroke-width="1.5"/>
+    <path d="M113 235h22m430 5h15" stroke="#dfb354" stroke-width="3"/>
+    <circle cx="195" cy="245" r="30" stroke-width="2.2"/>
+    <circle cx="507" cy="245" r="30" stroke-width="2.2"/>
+    <circle cx="195" cy="245" r="19" stroke-width="1" opacity=".7"/>
+    <circle cx="507" cy="245" r="19" stroke-width="1" opacity=".7"/>
+    <circle cx="195" cy="245" r="5" stroke="#dfb354" stroke-width="1.3"/>
+    <circle cx="507" cy="245" r="5" stroke="#dfb354" stroke-width="1.3"/>
+    <path d="M195 226v14m0 10v14m-19-19h14m10 0h14m293-19v14m0 10v14m-19-19h14m10 0h14" stroke-width="1" opacity=".7"/>
+  </g>
+  <path d="M81 279h536v12H81Z" fill="url(#garage-hatch)" stroke="#dfb354" stroke-width="1"/>
+  <path d="M72 278h554M96 291v9m505-9v9" fill="none" stroke="#e5e7df" stroke-width="1.4" opacity=".8"/>
+  <path d="M175 245h40m-20-20v40m292-20h40m-20-20v40" fill="none" stroke="#dfb354" stroke-width=".6" stroke-dasharray="3 4" opacity=".65"/>
+  <g fill="none" stroke="#e5e7df" stroke-width=".8" opacity=".35">
+    <path d="M48 340h604M245 351v42m210-42v42"/>
+  </g>
+  <g font-family="monospace" letter-spacing="1.6">
+    <g fill="#dfb354" font-size="9">
+      <text x="51" y="362">01 /</text>
+      <text x="269" y="362">02 /</text>
+      <text x="479" y="362">03 /</text>
+    </g>
+    <g fill="#e5e7df" font-size="12">
+      <text x="51" y="384">HISTORIA</text>
+      <text x="269" y="384">DOKUMENTY</text>
+      <text x="479" y="384">STAN AUTA</text>
+    </g>
+    <text x="48" y="414" fill="#dfb354" font-size="8.5">ZOBACZ. ZAPYTAJ. SPRAWDŹ.</text>
+    <text x="652" y="414" fill="#e5e7df" opacity=".38" font-size="8.5" text-anchor="end">SCHEMAT POGLĄDOWY</text>
+  </g>
+</svg>
